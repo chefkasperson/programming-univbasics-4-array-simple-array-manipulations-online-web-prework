@@ -52,8 +52,10 @@ def using_flatten(instruments)
   flat_array = instruments.flatten
 end
 
-
-
+def using_delete(instructors, "Steven")
+  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  no_offense_steven = instructors.delete("Steven")
+end
 
 def using_delete_at(famous_robots, deleted_robot)
   famous_robots = ["Johnny 5", "R2D2", "Robocop"]
