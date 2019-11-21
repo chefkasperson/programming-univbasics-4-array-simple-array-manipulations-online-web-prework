@@ -57,5 +57,6 @@ def using_delete(instructors)
   no_offense_steven = instructor.delete("Steven")
 end
 
-def
-
+def using_delete_at(famous_robots)
+  famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+  deleted_robot =famous_robots
